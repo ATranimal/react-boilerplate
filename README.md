@@ -7,7 +7,20 @@ This is a simple boilerplate that contains the following libraries / functions
 - Sass
 - Storybook
 - React Testing Library
-- Docker & nginx
+- Docker & Serve
+
+To start please run either
+
+```
+yarn
+yarn start
+```
+
+or
+
+```
+docker-compose up --build dev
+```
 
 If using VSCode, please install Prettier, and add
 

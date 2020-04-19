@@ -12,9 +12,7 @@ const App = () => {
       <div className="app">
         <ul className="app-header">
           <li>
-            <Link className="app-link" to="/">
-              Home
-            </Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/about">About</Link>

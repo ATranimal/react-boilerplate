@@ -8,6 +8,8 @@ ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
 COPY ./package.json ./yarn.lock ./
 
-RUN yarn install
+RUN yarn
 
-CMD npm start       
+EXPOSE 80
+
+CMD ./start.sh
